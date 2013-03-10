@@ -1,0 +1,95 @@
+﻿Build started 11/03/2013 12:20:03 p.m..
+     1>Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\SampleBase.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "./Win32/SampleBase/debug\SampleBase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./../../PxToolkit/include /I./../../SampleFramework/framework/include /I./../../SampleFramework/renderer/include /I./../../SampleFramework/platform/include /I./../../../Source/shared/general/shared /I./../../../Include /I./../../../Source/foundation/include /I./../../../Source/Common/src /I./../../../Source/GeomUtils/src /I./../../../Source/GeomUtils/headers /I./../../../Source/GeomUtils/include /I./../../../Include/RepX /I./../../../Include/RepXUpgrader /Zi /nologo /W3 /WX /Od /Oy- /D PHYSX_PROFILE_SDK /D _SECURE_SCL=0 /D _ITERATOR_DEBUG_LEVEL=0 /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D PX_CHECKED /D PX_SUPPORT_VISUAL_DEBUGGER /D _MBCS /GF /Gm- /RTCu /MTd /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Fo"./Win32/SampleBase/debug\\" /Fd"./Win32/SampleBase/debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\SampleBase\ParticleEmitter.cpp ..\..\SampleBase\ParticleEmitterPressure.cpp ..\..\SampleBase\ParticleEmitterRate.cpp ..\..\SampleBase\ParticleFactory.cpp ..\..\SampleBase\ParticleSystem.cpp ..\..\SampleBase\RenderBaseActor.cpp ..\..\SampleBase\RenderBaseObject.cpp ..\..\SampleBase\RenderBoxActor.cpp ..\..\SampleBase\RenderCapsuleActor.cpp ..\..\SampleBase\RenderGridActor.cpp ..\..\SampleBase\RenderMaterial.cpp ..\..\SampleBase\RenderMeshActor.cpp ..\..\SampleBase\RenderParticleSystemActor.cpp ..\..\SampleBase\RenderSphereActor.cpp ..\..\SampleBase\RenderTexture.cpp ..\..\SampleBase\RenderClothActor.cpp ..\..\SampleBase\RaycastCCD.cpp ..\..\SampleBase\SampleCamera.cpp ..\..\SampleBase\SampleCameraController.cpp ..\..\SampleBase\SampleConsole.cpp ..\..\SampleBase\SampleMain.cpp ..\..\SampleBase\SampleStepper.cpp ..\..\SampleBase\TestGroup.cpp ..\..\SampleBase\PhysXSample.cpp ..\..\SampleBase\PhysXSampleApplication.cpp ..\..\SampleBase\SampleInputMappingAsset.cpp ..\..\SampleBase\Picking.cpp ..\..\SampleBase\RawLoader.cpp ..\..\SampleBase\SampleAllocator.cpp ..\..\SampleBase\SampleMouseFilter.cpp ..\..\SampleBase\SampleRandomPrecomputed.cpp ..\..\SampleBase\RenderPhysX3Debug.cpp ..\..\SampleBase\wavefront.cpp ..\..\SampleBase\SampleCharacterHelpers.cpp ..\..\SampleBase\AcclaimLoader.cpp ..\..\SampleBase\TestMotionGenerator.cpp ..\..\SampleBase\TestGeometryHelpers.cpp ..\..\SampleBase\TestClothHelpers.cpp /MP
+         ParticleEmitter.cpp
+         ParticleEmitterPressure.cpp
+         ParticleEmitterRate.cpp
+         ParticleFactory.cpp
+         ParticleSystem.cpp
+         RenderBaseActor.cpp
+         RenderBaseObject.cpp
+         RenderBoxActor.cpp
+         RenderCapsuleActor.cpp
+         RenderGridActor.cpp
+         RenderMaterial.cpp
+         RenderMeshActor.cpp
+         RenderParticleSystemActor.cpp
+         RenderSphereActor.cpp
+         RenderTexture.cpp
+         RenderClothActor.cpp
+         RaycastCCD.cpp
+         SampleCamera.cpp
+         SampleCameraController.cpp
+         SampleConsole.cpp
+         SampleMain.cpp
+         SampleStepper.cpp
+         TestGroup.cpp
+         PhysXSample.cpp
+         PhysXSampleApplication.cpp
+         SampleInputMappingAsset.cpp
+         Picking.cpp
+         RawLoader.cpp
+         SampleAllocator.cpp
+         SampleMouseFilter.cpp
+         SampleRandomPrecomputed.cpp
+         RenderPhysX3Debug.cpp
+         wavefront.cpp
+         SampleCharacterHelpers.cpp
+         AcclaimLoader.cpp
+         TestMotionGenerator.cpp
+         TestGeometryHelpers.cpp
+         TestClothHelpers.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./../../lib/win32\SampleBaseDEBUG.lib" /NOLOGO /MACHINE:X86 ./Win32/SampleBase/debug\ParticleEmitter.obj
+         ./Win32/SampleBase/debug\ParticleEmitterPressure.obj
+         ./Win32/SampleBase/debug\ParticleEmitterRate.obj
+         ./Win32/SampleBase/debug\ParticleFactory.obj
+         ./Win32/SampleBase/debug\ParticleSystem.obj
+         ./Win32/SampleBase/debug\RenderBaseActor.obj
+         ./Win32/SampleBase/debug\RenderBaseObject.obj
+         ./Win32/SampleBase/debug\RenderBoxActor.obj
+         ./Win32/SampleBase/debug\RenderCapsuleActor.obj
+         ./Win32/SampleBase/debug\RenderGridActor.obj
+         ./Win32/SampleBase/debug\RenderMaterial.obj
+         ./Win32/SampleBase/debug\RenderMeshActor.obj
+         ./Win32/SampleBase/debug\RenderParticleSystemActor.obj
+         ./Win32/SampleBase/debug\RenderSphereActor.obj
+         ./Win32/SampleBase/debug\RenderTexture.obj
+         ./Win32/SampleBase/debug\RenderClothActor.obj
+         ./Win32/SampleBase/debug\RaycastCCD.obj
+         ./Win32/SampleBase/debug\SampleCamera.obj
+         ./Win32/SampleBase/debug\SampleCameraController.obj
+         ./Win32/SampleBase/debug\SampleConsole.obj
+         ./Win32/SampleBase/debug\SampleMain.obj
+         ./Win32/SampleBase/debug\SampleStepper.obj
+         ./Win32/SampleBase/debug\TestGroup.obj
+         ./Win32/SampleBase/debug\PhysXSample.obj
+         ./Win32/SampleBase/debug\PhysXSampleApplication.obj
+         ./Win32/SampleBase/debug\SampleInputMappingAsset.obj
+         ./Win32/SampleBase/debug\Picking.obj
+         ./Win32/SampleBase/debug\RawLoader.obj
+         ./Win32/SampleBase/debug\SampleAllocator.obj
+         ./Win32/SampleBase/debug\SampleMouseFilter.obj
+         ./Win32/SampleBase/debug\SampleRandomPrecomputed.obj
+         ./Win32/SampleBase/debug\RenderPhysX3Debug.obj
+         ./Win32/SampleBase/debug\wavefront.obj
+         ./Win32/SampleBase/debug\SampleCharacterHelpers.obj
+         ./Win32/SampleBase/debug\AcclaimLoader.obj
+         ./Win32/SampleBase/debug\TestMotionGenerator.obj
+         ./Win32/SampleBase/debug\TestGeometryHelpers.obj
+         ./Win32/SampleBase/debug\TestClothHelpers.obj
+         "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\framework\lib\win32\SampleFramework-MTDEBUG.lib"
+         "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\renderer\lib\win32\SampleRenderer-MTDEBUG.lib"
+         "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\platform\lib\win32\SamplePlatform-MTDEBUG.lib"
+         SampleBase.vcxproj -> F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\./../../lib/win32\SampleBaseDEBUG.lib
+       FinalizeBuildStatus:
+         Deleting file "./Win32/SampleBase/debug\SampleBase.unsuccessfulbuild".
+         Touching "./Win32/SampleBase/debug\SampleBase.lastbuildstate".
+     1>Done Building Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\SampleBase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.35

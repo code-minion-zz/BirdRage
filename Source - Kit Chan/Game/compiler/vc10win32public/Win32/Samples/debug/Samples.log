@@ -1,0 +1,138 @@
+﻿Build started 11/03/2013 12:20:22 p.m..
+     1>Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\Samples.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "./Win32/Samples/debug\Samples.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./../../SampleBase /I./../../../Source/shared/general/shared /I./../../PxToolkit/include /I./../../SampleFramework/framework/include /I./../../SampleFramework/renderer/include /I./../../SampleFramework/platform/include /I./../../../Include /I./../../../Source/foundation/include /I./../../../Source/Common/src /I./../../../Source/GeomUtils/src /I./../../../Source/GeomUtils/headers /I./../../../Source/GeomUtils/include /I./../../../Include/RepX /I./../../../Include/RepXUpgrader /I./../../SampleCCTSharedCode /Zi /nologo /W4 /WX /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D PHYSX_PROFILE_SDK /D _SECURE_SCL=0 /D _ITERATOR_DEBUG_LEVEL=0 /D _DEBUG /D PX_CHECKED /D PX_SUPPORT_VISUAL_DEBUGGER /D _MBCS /GF /Gm- /RTCu /MTd /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Fo"./Win32/Samples/debug\\" /Fd"./Win32/Samples/debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\SampleHelloWorld\SampleHelloWorld.cpp ..\..\SampleBridges\SampleBridges.cpp ..\..\SampleBridges\SampleBridgesCCT.cpp ..\..\SampleCharacterCloth\SampleCharacterClothCameraController.cpp ..\..\SampleCharacterCloth\SampleCharacterClothFlag.cpp ..\..\SampleCharacterCloth\SampleCharacterClothJump.cpp ..\..\SampleCharacterCloth\SampleCharacterCloth_CCT.cpp ..\..\SampleCharacterCloth\SampleCharacterCloth_ClothController.cpp ..\..\SampleCharacterCloth\SampleCharacterCloth_Main.cpp ..\..\SampleCharacterCloth\SampleCharacterCloth_TerrainBuilder.cpp ..\..\SampleSubmarine\Crab.cpp ..\..\SampleSubmarine\SampleSubmarine.cpp ..\..\SampleVehicle\SampleVehicle.cpp ..\..\SampleVehicle\SampleVehicleDebugRender.cpp ..\..\SampleVehicle\SampleVehicleTerrain.cpp ..\..\SampleVehicle\SampleVehicle_CameraController.cpp ..\..\SampleVehicle\SampleVehicle_ControlInputs.cpp ..\..\SampleVehicle\SampleVehicle_GameLogic.cpp ..\..\SampleVehicle\SampleVehicle_SceneQuery.cpp ..\..\SampleVehicle\SampleVehicle_VehicleController.cpp ..\..\SampleVehicle\SampleVehicle_VehicleCooking.cpp ..\..\SampleVehicle\SampleVehicle_VehicleManager.cpp ..\..\SampleParticles\SampleParticles.cpp ..\..\SampleNorthPole\SampleNorthPole.cpp ..\..\SampleNorthPole\SampleNorthPoleBuilder.cpp ..\..\SampleNorthPole\SampleNorthPoleCameraController.cpp ..\..\SampleNorthPole\SampleNorthPoleCCT.cpp ..\..\SampleNorthPole\SampleNorthPoleDynamics.cpp ..\..\SampleNorthPole\SampleNorthPoleFilterShader.cpp ..\..\SampleCustomGravity\Planet.cpp ..\..\SampleCustomGravity\SampleCustomGravity.cpp ..\..\SampleCustomGravity\SampleCustomGravityBuilder.cpp ..\..\SampleCustomGravity\SampleCustomGravityCameraController.cpp ..\..\SampleCustomGravity\SampleCustomGravityFilterShader.cpp ..\..\SampleCustomGravity\SampleCustomGravity_CCT.cpp ..\..\SampleCCTSharedCode\KinematicPlatform.cpp ..\..\SampleCCTSharedCode\SampleCCTActor.cpp ..\..\SampleCCTSharedCode\SampleCCTCameraController.cpp ..\..\SampleCCTSharedCode\SampleCCTJump.cpp /MP
+         SampleHelloWorld.cpp
+         SampleBridges.cpp
+         SampleBridgesCCT.cpp
+         SampleCharacterClothCameraController.cpp
+         SampleCharacterClothFlag.cpp
+         SampleCharacterClothJump.cpp
+         SampleCharacterCloth_CCT.cpp
+         SampleCharacterCloth_ClothController.cpp
+         SampleCharacterCloth_Main.cpp
+         SampleCharacterCloth_TerrainBuilder.cpp
+         Crab.cpp
+         SampleSubmarine.cpp
+         SampleVehicle.cpp
+         SampleVehicleDebugRender.cpp
+         SampleVehicleTerrain.cpp
+         SampleVehicle_CameraController.cpp
+         SampleVehicle_ControlInputs.cpp
+         SampleVehicle_GameLogic.cpp
+         SampleVehicle_SceneQuery.cpp
+         SampleVehicle_VehicleController.cpp
+         SampleVehicle_VehicleCooking.cpp
+         SampleVehicle_VehicleManager.cpp
+         SampleParticles.cpp
+         SampleNorthPole.cpp
+         SampleNorthPoleBuilder.cpp
+         SampleNorthPoleCameraController.cpp
+         SampleNorthPoleCCT.cpp
+         SampleNorthPoleDynamics.cpp
+         SampleNorthPoleFilterShader.cpp
+         Planet.cpp
+         SampleCustomGravity.cpp
+         SampleCustomGravityBuilder.cpp
+         SampleCustomGravityCameraController.cpp
+         SampleCustomGravityFilterShader.cpp
+         SampleCustomGravity_CCT.cpp
+         KinematicPlatform.cpp
+         SampleCCTActor.cpp
+         SampleCCTCameraController.cpp
+         SampleCCTJump.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./../../../bin/win32\SamplesDEBUG.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"./../../../bin/win32\/SamplesDEBUG.exe.pdb" /MAP:"./../../../bin/win32\/SamplesDEBUG.exe.map" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"./../../../bin/win32\SamplesDEBUG.lib" /MACHINE:X86 ./Win32/Samples/debug\SampleHelloWorld.obj
+         ./Win32/Samples/debug\SampleBridges.obj
+         ./Win32/Samples/debug\SampleBridgesCCT.obj
+         ./Win32/Samples/debug\SampleCharacterClothCameraController.obj
+         ./Win32/Samples/debug\SampleCharacterClothFlag.obj
+         ./Win32/Samples/debug\SampleCharacterClothJump.obj
+         ./Win32/Samples/debug\SampleCharacterCloth_CCT.obj
+         ./Win32/Samples/debug\SampleCharacterCloth_ClothController.obj
+         ./Win32/Samples/debug\SampleCharacterCloth_Main.obj
+         ./Win32/Samples/debug\SampleCharacterCloth_TerrainBuilder.obj
+         ./Win32/Samples/debug\Crab.obj
+         ./Win32/Samples/debug\SampleSubmarine.obj
+         ./Win32/Samples/debug\SampleVehicle.obj
+         ./Win32/Samples/debug\SampleVehicleDebugRender.obj
+         ./Win32/Samples/debug\SampleVehicleTerrain.obj
+         ./Win32/Samples/debug\SampleVehicle_CameraController.obj
+         ./Win32/Samples/debug\SampleVehicle_ControlInputs.obj
+         ./Win32/Samples/debug\SampleVehicle_GameLogic.obj
+         ./Win32/Samples/debug\SampleVehicle_SceneQuery.obj
+         ./Win32/Samples/debug\SampleVehicle_VehicleController.obj
+         ./Win32/Samples/debug\SampleVehicle_VehicleCooking.obj
+         ./Win32/Samples/debug\SampleVehicle_VehicleManager.obj
+         ./Win32/Samples/debug\SampleParticles.obj
+         ./Win32/Samples/debug\SampleNorthPole.obj
+         ./Win32/Samples/debug\SampleNorthPoleBuilder.obj
+         ./Win32/Samples/debug\SampleNorthPoleCameraController.obj
+         ./Win32/Samples/debug\SampleNorthPoleCCT.obj
+         ./Win32/Samples/debug\SampleNorthPoleDynamics.obj
+         ./Win32/Samples/debug\SampleNorthPoleFilterShader.obj
+         ./Win32/Samples/debug\Planet.obj
+         ./Win32/Samples/debug\SampleCustomGravity.obj
+         ./Win32/Samples/debug\SampleCustomGravityBuilder.obj
+         ./Win32/Samples/debug\SampleCustomGravityCameraController.obj
+         ./Win32/Samples/debug\SampleCustomGravityFilterShader.obj
+         ./Win32/Samples/debug\SampleCustomGravity_CCT.obj
+         ./Win32/Samples/debug\KinematicPlatform.obj
+         ./Win32/Samples/debug\SampleCCTActor.obj
+         ./Win32/Samples/debug\SampleCCTCameraController.obj
+         ./Win32/Samples/debug\SampleCCTJump.obj
+         "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\lib\win32\SampleBaseDEBUG.lib"
+         "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\PxToolkit\lib\win32\PxToolkitDEBUG.lib" Winmm.lib /LIBPATH:../../../Common/lib/win32 /LIBPATH:../../lib/win32 /LIBPATH:../../../Lib/win32 PhysX3CommonCHECKED_x86.lib PhysX3CHECKED_x86.lib PhysX3CookingCHECKED_x86.lib PhysX3CharacterKinematicCHECKED_x86.lib PhysX3ExtensionsCHECKED.lib PhysX3VehicleCHECKED.lib RepX3CHECKED.lib RepXUpgrader3CHECKED.lib PhysXProfileSDKCHECKED.lib PhysXVisualDebuggerSDKCHECKED.lib PxTaskCHECKED.lib /DEBUG
+            Creating library ./../../../bin/win32\SamplesDEBUG.lib and object ./../../../bin/win32\SamplesDEBUG.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>PhysX3ExtensionsCHECKED.lib(ExtCpuWorkerThread.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtCpuWorkerThread.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtD6Joint.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtD6Joint.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtD6JointSolverPrep.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtD6JointSolverPrep.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultCpuDispatcher.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultErrorCallback.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultErrorCallback.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDefaultSimulationFilterShader.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDefaultSimulationFilterShader.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDistanceJoint.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDistanceJoint.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtDistanceJointSolverPrep.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtDistanceJointSolverPrep.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtExtensions.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtExtensions.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtFixedJoint.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtFixedJoint.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtFixedJointSolverPrep.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtFixedJointSolverPrep.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtJoint.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtJoint.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtMetaData.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtMetaData.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtParticleExt.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtParticleExt.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtPrismaticJoint.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPrismaticJoint.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtPrismaticJointSolverPrep.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPrismaticJointSolverPrep.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtPvdClientImpl.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtPvdClientImpl.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtRevoluteJoint.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRevoluteJoint.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtRevoluteJointSolverPrep.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRevoluteJointSolverPrep.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtRigidBodyExt.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtRigidBodyExt.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtSimpleFactory.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSimpleFactory.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtSmoothNormals.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSmoothNormals.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtSphericalJoint.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSphericalJoint.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtSphericalJointSolverPrep.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtSphericalJointSolverPrep.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(ExtVisualDebugger.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(ExtVisualDebugger.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3ExtensionsCHECKED.lib(PxExtensionAutoGeneratedMetaDataObjects.obj) : warning LNK4099: PDB 'physx3extensionschecked.pdb' was not found with 'PhysX3ExtensionsCHECKED.lib(PxExtensionAutoGeneratedMetaDataObjects.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3extensionschecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleComponents.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleComponents.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleDrive.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleDrive.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleDrive4W.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleDrive4W.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleSDK.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleSDK.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleSuspWheelTire4.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleSuspWheelTire4.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleTireFriction.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleTireFriction.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleUpdate.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleUpdate.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(PxVehicleWheels.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(PxVehicleWheels.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(VehicleUtilControl.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(VehicleUtilControl.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>PhysX3VehicleCHECKED.lib(VehicleUtilTelemetry.obj) : warning LNK4099: PDB 'physx3vehiclechecked.pdb' was not found with 'PhysX3VehicleCHECKED.lib(VehicleUtilTelemetry.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physx3vehiclechecked.pdb'; linking object as if no debug info
+     1>RepX3CHECKED.lib(FastXml.obj) : warning LNK4099: PDB 'repx3checked.pdb' was not found with 'RepX3CHECKED.lib(FastXml.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\repx3checked.pdb'; linking object as if no debug info
+     1>PhysXProfileSDKCHECKED.lib(PxProfileEventImpl.obj) : warning LNK4099: PDB 'physxprofilesdkchecked.pdb' was not found with 'PhysXProfileSDKCHECKED.lib(PxProfileEventImpl.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physxprofilesdkchecked.pdb'; linking object as if no debug info
+     1>PhysXVisualDebuggerSDKCHECKED.lib(PvdNetworkStreams.obj) : warning LNK4099: PDB 'physxvisualdebuggersdkchecked.pdb' was not found with 'PhysXVisualDebuggerSDKCHECKED.lib(PvdNetworkStreams.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\physxvisualdebuggersdkchecked.pdb'; linking object as if no debug info
+     1>PxTaskCHECKED.lib(CudaWrapper.obj) : warning LNK4099: PDB 'pxtaskchecked.pdb' was not found with 'PxTaskCHECKED.lib(CudaWrapper.obj)' or at 'F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\bin\win32\pxtaskchecked.pdb'; linking object as if no debug info
+         Samples.vcxproj -> F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\./../../../bin/win32\SamplesDEBUG.exe
+       FinalizeBuildStatus:
+         Deleting file "./Win32/Samples/debug\Samples.unsuccessfulbuild".
+         Touching "./Win32/Samples/debug\Samples.lastbuildstate".
+     1>Done Building Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\Samples.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.68

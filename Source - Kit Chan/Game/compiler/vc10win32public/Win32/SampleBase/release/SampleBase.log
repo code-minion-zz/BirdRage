@@ -1,0 +1,9 @@
+﻿Build started 11/03/2013 12:17:46 p.m..
+     1>Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\SampleBase.vcxproj" on node 3 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "./Win32/SampleBase/release\SampleBase.lastbuildstate".
+     1>Done Building Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\compiler\vc10win32public\SampleBase.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

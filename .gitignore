@@ -2,12 +2,26 @@
 *.slo
 *.lo
 *.o
+*.exe
+*.exe.map
+*.exe.pdb
+*.ilk
+*.obj
+*.tlog
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
 
+
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+
+# Intellisense
+*.sdf
+*.opensdf
+
+# Binaries
+Bin/**/*

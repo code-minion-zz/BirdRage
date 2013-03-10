@@ -1,0 +1,52 @@
+﻿Build started 11/03/2013 12:19:45 p.m..
+     1>Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\framework\compiler\vc10win32public\SampleFramework-MT.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "./Win32/SampleFramework-MT/debug\SampleFramework-MT.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./../../include /I./../../../renderer/include /I./../../../platform/include /I./../../../../../externals/OpenAutomate/inc /I./../../../../../Source/shared/general/PxIOStream/include /I./../../../../../Source/shared/general/PxIOStream/public /I./../../../../../Source/shared/general/string_parsing/include /I./../../../../../Source/shared/general/shared /I./../../../../../Include /I./../../../../../Include /I./../../../../../Source/foundation/include /I./../../../../../Include/foundation /I./../../../../../Include/physxprofilesdk /I./../../../../../Include/physxvisualdebuggersdk /Zi /nologo /W3 /WX /Od /Oy- /D AGPERFMON /D PHYSX_PROFILE_SDK /D _SECURE_SCL=0 /D _ITERATOR_DEBUG_LEVEL=0 /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D PX_CHECKED /D PX_SUPPORT_VISUAL_DEBUGGER /D _MBCS /GF /Gm- /RTCu /MTd /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Fo"./Win32/SampleFramework-MT/debug\\" /Fd"./Win32/SampleFramework-MT/debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\windows\WindowsSampleAssetManager.cpp ..\..\src\AgPerfMonEventSrcAPI.cpp ..\..\src\nv_dds.cpp ..\..\src\ODBlock.cpp ..\..\src\SampleApplication.cpp ..\..\src\SampleAsset.cpp ..\..\src\SampleAssetManager.cpp ..\..\src\SampleCommandLine.cpp ..\..\src\SampleDirManager.cpp ..\..\src\SampleInputAsset.cpp ..\..\src\SampleLineDebugRender.cpp ..\..\src\SampleMaterialAsset.cpp ..\..\src\SamplePointDebugRender.cpp ..\..\src\SamplePxProfileZone.cpp ..\..\src\SampleTextureAsset.cpp ..\..\src\SampleTree.cpp ..\..\src\SampleTriangleDebugRender.cpp ..\..\src\targa.cpp /EHsc /D ASSET_DIR=\"/SampleRenderer/4/\" /MP
+         WindowsSampleAssetManager.cpp
+         AgPerfMonEventSrcAPI.cpp
+         nv_dds.cpp
+         ODBlock.cpp
+         SampleApplication.cpp
+         SampleAsset.cpp
+         SampleAssetManager.cpp
+         SampleCommandLine.cpp
+         SampleDirManager.cpp
+         SampleInputAsset.cpp
+         SampleLineDebugRender.cpp
+         SampleMaterialAsset.cpp
+         SamplePointDebugRender.cpp
+         SamplePxProfileZone.cpp
+         SampleTextureAsset.cpp
+         SampleTree.cpp
+         SampleTriangleDebugRender.cpp
+         targa.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./../../lib/win32\SampleFramework-MTDEBUG.lib" /NOLOGO /MACHINE:X86 "./Win32/SampleFramework-MT/debug\WindowsSampleAssetManager.obj"
+         "./Win32/SampleFramework-MT/debug\AgPerfMonEventSrcAPI.obj"
+         "./Win32/SampleFramework-MT/debug\nv_dds.obj"
+         "./Win32/SampleFramework-MT/debug\ODBlock.obj"
+         "./Win32/SampleFramework-MT/debug\SampleApplication.obj"
+         "./Win32/SampleFramework-MT/debug\SampleAsset.obj"
+         "./Win32/SampleFramework-MT/debug\SampleAssetManager.obj"
+         "./Win32/SampleFramework-MT/debug\SampleCommandLine.obj"
+         "./Win32/SampleFramework-MT/debug\SampleDirManager.obj"
+         "./Win32/SampleFramework-MT/debug\SampleInputAsset.obj"
+         "./Win32/SampleFramework-MT/debug\SampleLineDebugRender.obj"
+         "./Win32/SampleFramework-MT/debug\SampleMaterialAsset.obj"
+         "./Win32/SampleFramework-MT/debug\SamplePointDebugRender.obj"
+         "./Win32/SampleFramework-MT/debug\SamplePxProfileZone.obj"
+         "./Win32/SampleFramework-MT/debug\SampleTextureAsset.obj"
+         "./Win32/SampleFramework-MT/debug\SampleTree.obj"
+         "./Win32/SampleFramework-MT/debug\SampleTriangleDebugRender.obj"
+         "./Win32/SampleFramework-MT/debug\targa.obj"
+         SampleFramework-MT.vcxproj -> F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\framework\compiler\vc10win32public\./../../lib/win32\SampleFramework-MTDEBUG.lib
+       FinalizeBuildStatus:
+         Deleting file "./Win32/SampleFramework-MT/debug\SampleFramework-MT.unsuccessfulbuild".
+         Touching "./Win32/SampleFramework-MT/debug\SampleFramework-MT.lastbuildstate".
+     1>Done Building Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\framework\compiler\vc10win32public\SampleFramework-MT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.98

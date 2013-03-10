@@ -1,0 +1,24 @@
+﻿Build started 11/03/2013 12:19:40 p.m..
+     1>Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\platform\compiler\vc10win32public\SamplePlatform-MT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "./Win32/SamplePlatform-MT/debug\SamplePlatform-MT.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./../../include /I./../../../renderer/include /I./../../../framework/include /I./../../../../../Include /I./../../../../../Source/shared/general/shared /I./../../../../../Source/foundation/include /I./../../../../../Source/foundation/include/windows /I./../../../../../Include /I./../../../../../externals/DirectX_Jun2010/Include /Zi /nologo /W3 /WX /Od /Oy- /D AGPERFMON /D PHYSX_PROFILE_SDK /D _SECURE_SCL=0 /D _ITERATOR_DEBUG_LEVEL=0 /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D PX_CHECKED /D PX_SUPPORT_VISUAL_DEBUGGER /D _MBCS /GF /Gm- /RTCu /MTd /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Fo"./Win32/SamplePlatform-MT/debug\\" /Fd"./Win32/SamplePlatform-MT/debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\windows\WindowsSamplePlatform.cpp ..\..\src\windows\WindowsSampleUserInput.cpp ..\..\src\SamplePlatform.cpp ..\..\src\SampleUserInput.cpp /EHsc /MP
+         WindowsSamplePlatform.cpp
+         WindowsSampleUserInput.cpp
+         SamplePlatform.cpp
+         SampleUserInput.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./../../lib/win32\SamplePlatform-MTDEBUG.lib" /NOLOGO /MACHINE:X86 "./Win32/SamplePlatform-MT/debug\WindowsSamplePlatform.obj"
+         "./Win32/SamplePlatform-MT/debug\WindowsSampleUserInput.obj"
+         "./Win32/SamplePlatform-MT/debug\SamplePlatform.obj"
+         "./Win32/SamplePlatform-MT/debug\SampleUserInput.obj"
+         SamplePlatform-MT.vcxproj -> F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\platform\compiler\vc10win32public\./../../lib/win32\SamplePlatform-MTDEBUG.lib
+       FinalizeBuildStatus:
+         Deleting file "./Win32/SamplePlatform-MT/debug\SamplePlatform-MT.unsuccessfulbuild".
+         Touching "./Win32/SamplePlatform-MT/debug\SamplePlatform-MT.lastbuildstate".
+     1>Done Building Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\platform\compiler\vc10win32public\SamplePlatform-MT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.64

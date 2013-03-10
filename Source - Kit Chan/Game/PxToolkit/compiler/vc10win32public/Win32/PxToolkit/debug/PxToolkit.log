@@ -1,0 +1,28 @@
+﻿Build started 11/03/2013 12:19:56 p.m..
+     1>Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\PxToolkit\compiler\vc10win32public\PxToolkit.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "./Win32/PxToolkit/debug\PxToolkit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./../../../../Include/foundation /I./../../../../Source/foundation/include /I./../../../../Include/physxprofilesdk /I./../../../../Include/physxvisualdebuggersdk /I./../../include /I./../../../../Include/common /I./../../../../Include/geometry /I./../../../../Include/pvd /I./../../../../Include/particles /I./../../../../Include/cooking /I./../../../../Include/extensions /I./../../../../Include/characterdynamic /I./../../../../Include/vehicle /I./../../../../Include/RepX /I./../../../../Include/RepXUpgrader /I./../../../../Include /I./../../../../Source/GeomUtils/headers /Zi /nologo /W3 /WX /Od /Oy- /D _SECURE_SCL=0 /D _ITERATOR_DEBUG_LEVEL=0 /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D PX_CHECKED /D PX_SUPPORT_VISUAL_DEBUGGER /D PX_PHYSX_DLL_NAME_POSTFIX=DEBUG /D _MBCS /GF /Gm- /RTCu /MTd /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Fo"./Win32/PxToolkit/debug\\" /Fd"./Win32/PxToolkit/debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\PxTkBmpLoader.cpp ..\..\src\PxTkFPS.cpp ..\..\src\PxTkMatrixUtils.cpp ..\..\src\PxTkRandom.cpp ..\..\src\PxTkRepX.cpp ..\..\src\PxTkStream.cpp /MP
+         PxTkBmpLoader.cpp
+         PxTkFPS.cpp
+         PxTkMatrixUtils.cpp
+         PxTkRandom.cpp
+         PxTkRepX.cpp
+         PxTkStream.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./../../lib/win32\PxToolkitDEBUG.lib" /NOLOGO /MACHINE:X86 ./Win32/PxToolkit/debug\PxTkBmpLoader.obj
+         ./Win32/PxToolkit/debug\PxTkFPS.obj
+         ./Win32/PxToolkit/debug\PxTkMatrixUtils.obj
+         ./Win32/PxToolkit/debug\PxTkRandom.obj
+         ./Win32/PxToolkit/debug\PxTkRepX.obj
+         ./Win32/PxToolkit/debug\PxTkStream.obj
+         PxToolkit.vcxproj -> F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\PxToolkit\compiler\vc10win32public\./../../lib/win32\PxToolkitDEBUG.lib
+       FinalizeBuildStatus:
+         Deleting file "./Win32/PxToolkit/debug\PxToolkit.unsuccessfulbuild".
+         Touching "./Win32/PxToolkit/debug\PxToolkit.lastbuildstate".
+     1>Done Building Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\PxToolkit\compiler\vc10win32public\PxToolkit.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.20

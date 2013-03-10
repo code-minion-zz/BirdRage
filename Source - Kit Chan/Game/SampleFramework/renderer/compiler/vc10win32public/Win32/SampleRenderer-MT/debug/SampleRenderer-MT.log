@@ -1,0 +1,106 @@
+﻿Build started 11/03/2013 12:19:40 p.m..
+     1>Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\renderer\compiler\vc10win32public\SampleRenderer-MT.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "./Win32/SampleRenderer-MT/debug\SampleRenderer-MT.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./../../include /I./../../../platform/include /I./../../../framework/include /I./../../../../../Source/shared/general/shared /I./../../../../../Source/foundation/include /I./../../../../../Source/foundation/include/windows /I./../../../../../Include /I./../../../../../Include /I./../../../../../Include /I./../../../../../externals/DirectX_Jun2010/Include /Zi /nologo /W3 /WX /Od /Oy- /D AGPERFMON /D PHYSX_PROFILE_SDK /D _SECURE_SCL=0 /D _ITERATOR_DEBUG_LEVEL=0 /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D PX_CHECKED /D PX_SUPPORT_VISUAL_DEBUGGER /D _MBCS /GF /Gm- /RTCu /MTd /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Fo"./Win32/SampleRenderer-MT/debug\\" /Fd"./Win32/SampleRenderer-MT/debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\d3d9\D3D9Renderer.cpp ..\..\src\d3d9\D3D9RendererDirectionalLight.cpp ..\..\src\d3d9\D3D9RendererIndexBuffer.cpp ..\..\src\d3d9\D3D9RendererInstanceBuffer.cpp ..\..\src\d3d9\D3D9RendererMaterial.cpp ..\..\src\d3d9\D3D9RendererMesh.cpp ..\..\src\d3d9\D3D9RendererSpotLight.cpp ..\..\src\d3d9\D3D9RendererTarget.cpp ..\..\src\d3d9\D3D9RendererTexture2D.cpp ..\..\src\d3d9\D3D9RendererVertexBuffer.cpp ..\..\src\Renderer.cpp ..\..\src\RendererBoxShape.cpp ..\..\src\RendererCapsuleShape.cpp ..\..\src\RendererClothShape.cpp ..\..\src\RendererColor.cpp ..\..\src\RendererDesc.cpp ..\..\src\RendererDirectionalLight.cpp ..\..\src\RendererDirectionalLightDesc.cpp ..\..\src\RendererGridShape.cpp ..\..\src\RendererIndexBuffer.cpp ..\..\src\RendererIndexBufferDesc.cpp ..\..\src\RendererInstanceBuffer.cpp ..\..\src\RendererInstanceBufferDesc.cpp ..\..\src\RendererLight.cpp ..\..\src\RendererLightDesc.cpp ..\..\src\RendererMaterial.cpp ..\..\src\RendererMaterialDesc.cpp ..\..\src\RendererMaterialInstance.cpp ..\..\src\RendererMesh.cpp ..\..\src\RendererMeshContext.cpp ..\..\src\RendererMeshDesc.cpp ..\..\src\RendererMeshShape.cpp ..\..\src\RendererParticleSystemShape.cpp ..\..\src\RendererProjection.cpp ..\..\src\RendererShape.cpp ..\..\src\RendererSpotLight.cpp ..\..\src\RendererSpotLightDesc.cpp ..\..\src\RendererTarget.cpp ..\..\src\RendererTargetDesc.cpp ..\..\src\RendererTerrainShape.cpp ..\..\src\RendererTexture2D.cpp ..\..\src\RendererTexture2DDesc.cpp ..\..\src\RendererVertexBuffer.cpp ..\..\src\RendererVertexBufferDesc.cpp ..\..\src\RendererWindow.cpp /EHsc /MP
+         D3D9Renderer.cpp
+         D3D9RendererDirectionalLight.cpp
+         D3D9RendererIndexBuffer.cpp
+         D3D9RendererInstanceBuffer.cpp
+         D3D9RendererMaterial.cpp
+         D3D9RendererMesh.cpp
+         D3D9RendererSpotLight.cpp
+         D3D9RendererTarget.cpp
+         D3D9RendererTexture2D.cpp
+         D3D9RendererVertexBuffer.cpp
+         Renderer.cpp
+         RendererBoxShape.cpp
+         RendererCapsuleShape.cpp
+         RendererClothShape.cpp
+         RendererColor.cpp
+         RendererDesc.cpp
+         RendererDirectionalLight.cpp
+         RendererDirectionalLightDesc.cpp
+         RendererGridShape.cpp
+         RendererIndexBuffer.cpp
+         RendererIndexBufferDesc.cpp
+         RendererInstanceBuffer.cpp
+         RendererInstanceBufferDesc.cpp
+         RendererLight.cpp
+         RendererLightDesc.cpp
+         RendererMaterial.cpp
+         RendererMaterialDesc.cpp
+         RendererMaterialInstance.cpp
+         RendererMesh.cpp
+         RendererMeshContext.cpp
+         RendererMeshDesc.cpp
+         RendererMeshShape.cpp
+         RendererParticleSystemShape.cpp
+         RendererProjection.cpp
+         RendererShape.cpp
+         RendererSpotLight.cpp
+         RendererSpotLightDesc.cpp
+         RendererTarget.cpp
+         RendererTargetDesc.cpp
+         RendererTerrainShape.cpp
+         RendererTexture2D.cpp
+         RendererTexture2DDesc.cpp
+         RendererVertexBuffer.cpp
+         RendererVertexBufferDesc.cpp
+         RendererWindow.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./../../lib/win32\SampleRenderer-MTDEBUG.lib" /NOLOGO /MACHINE:X86 "./Win32/SampleRenderer-MT/debug\D3D9Renderer.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererDirectionalLight.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererIndexBuffer.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererInstanceBuffer.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererMaterial.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererMesh.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererSpotLight.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererTarget.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererTexture2D.obj"
+         "./Win32/SampleRenderer-MT/debug\D3D9RendererVertexBuffer.obj"
+         "./Win32/SampleRenderer-MT/debug\Renderer.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererBoxShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererCapsuleShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererClothShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererColor.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererDirectionalLight.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererDirectionalLightDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererGridShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererIndexBuffer.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererIndexBufferDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererInstanceBuffer.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererInstanceBufferDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererLight.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererLightDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererMaterial.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererMaterialDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererMaterialInstance.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererMesh.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererMeshContext.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererMeshDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererMeshShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererParticleSystemShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererProjection.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererSpotLight.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererSpotLightDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererTarget.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererTargetDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererTerrainShape.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererTexture2D.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererTexture2DDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererVertexBuffer.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererVertexBufferDesc.obj"
+         "./Win32/SampleRenderer-MT/debug\RendererWindow.obj"
+         SampleRenderer-MT.vcxproj -> F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\renderer\compiler\vc10win32public\./../../lib/win32\SampleRenderer-MTDEBUG.lib
+       FinalizeBuildStatus:
+         Deleting file "./Win32/SampleRenderer-MT/debug\SampleRenderer-MT.unsuccessfulbuild".
+         Touching "./Win32/SampleRenderer-MT/debug\SampleRenderer-MT.lastbuildstate".
+     1>Done Building Project "F:\repo\school\programmers\weng.chan\2013-03-11 - GD2P02 - Physics Project - Kit Chan\Source - Kit Chan\Game\SampleFramework\renderer\compiler\vc10win32public\SampleRenderer-MT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.93
