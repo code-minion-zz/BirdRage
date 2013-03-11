@@ -24,4 +24,5 @@
 *.opensdf
 
 # Binaries
-Bin/**/*
+Debug/*
+Release/*
